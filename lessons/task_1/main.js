@@ -75,4 +75,4 @@ let  last = prompt('Ваша фамилия?');
 
 //alert(`Привет,${name} ${middle} ${last}!!!`);
 console.log(`${name} ${middle} ${last}`);
-console.log('Привет' + '!!! ' + name + ' ' + middle + ' ' + last)
+console.log('Привет' + '!!! ' + name + ' ' + middle + ' ' + last);
