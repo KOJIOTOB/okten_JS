@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+body {
+    background: orange;
+    transition: 1500ms;
+}
+
+.block_user {
+    font-size: 20px;
+    background: white;
+    height: 50px;
+    width: 310px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.block_user>a {
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    transition: 1s;
+}
+
+.block_user>a:hover {
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+    transition: 1s;
+    background-color: #ffa500;
+}
+
+.title {
+    font-family: 'Wallpoet', cursive;
+    font-size: 60px;
+    letter-spacing: 15px;
+    position: relative;
+    animation-name: example;
+    animation: myfirst 5s linear 2s infinite alternate;
+    transition: 3s;
+}
+
+@keyframes myfirst {
+    0%   {color:black;}
+    25%  {color:orange;}
+    50%  {color:black;}
+    75%  {color:orange;}
+    100% {color:black;}
+}
+
+.container {
+    width: 350px;
+    height: 100%;
+    background: white;
+    color: grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}
+
+.block_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 20px;
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    background: orange;
+    color: black;
+    font-family: 'Wallpoet', cursive;
+    transition: 1s;
+}
+
+.btn:hover {
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
+
+.block {
+    width: 900px;
+    background: white;
+    color: grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}
